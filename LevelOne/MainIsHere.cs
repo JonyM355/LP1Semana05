@@ -2,6 +2,9 @@
 
 namespace LevelOne
 {
+    /// <summary>
+    /// This is a class!
+    /// </summary>
     public class Program
     {
         /// <summary>
