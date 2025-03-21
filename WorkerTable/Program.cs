@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 using Bogus;
 using Spectre.Console;
 
@@ -16,10 +17,10 @@ namespace WorkerTable
 
             //Add Columns
             tabela.AddColumn("ID").Centered();
-            tabela.AddColumn(new TableColumn("Nome"));
+            tabela.AddColumn(new TableColumn("Name"));
             tabela.AddColumn(new TableColumn("Job"));
 
-            for (int i = 0; i > args.Length; i++)
+            for (int i = 0; i > args.GetLength(0); i++)
             {
                 int id = i;
 
