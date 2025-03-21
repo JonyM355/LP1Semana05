@@ -9,7 +9,10 @@ namespace LevelTwo
     {
         private static void Main(string[] args)
         {
+            //exercício3
             Console.WriteLine(SoGoodClass.SoGoodMethod());
+            //exercício3
+            
             if (args.Length == 2)
             {
                 CanvasImage image = new CanvasImage($"{args[0]}");

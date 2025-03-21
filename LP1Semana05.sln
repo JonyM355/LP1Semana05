@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelTwo", "LevelTwo\LevelT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoGoodLib", "SoGoodLib\SoGoodLib.csproj", "{06760828-25FB-442A-9B32-39D1CA485AFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerTable", "WorkerTable\WorkerTable.csproj", "{AF69B178-815D-4F73-A26C-623C433224FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{06760828-25FB-442A-9B32-39D1CA485AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06760828-25FB-442A-9B32-39D1CA485AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06760828-25FB-442A-9B32-39D1CA485AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF69B178-815D-4F73-A26C-623C433224FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF69B178-815D-4F73-A26C-623C433224FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF69B178-815D-4F73-A26C-623C433224FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF69B178-815D-4F73-A26C-623C433224FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
