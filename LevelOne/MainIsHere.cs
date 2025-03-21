@@ -13,7 +13,12 @@ namespace LevelOne
             Console.WriteLine("Hello LP1!");
         }
 
-        public static void NewMethod(string[] stri)
+
+        /// <summary>
+        /// New Method that print 'Bye!'
+        /// </summary>
+        /// <param name="stri"></param>
+        private static void NewMethod(string[] stri)
         {
             Console.WriteLine("Bye!");
         }
